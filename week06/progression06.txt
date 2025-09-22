@@ -1,0 +1,7 @@
+ได้เรียนรู้การนำ Arrays, Objects และ Functions มาใช้รวมกัน โดยมีระบบตามโจทย์ สำหรับเพิ่ม addQuote, 
+ลบ deleteQuote, อัปเดต updateQuote, และแสดงทั้งหมด getAllQuotes ข้อมูลจาก array ของ object 
+แต่ละ method เลือกใช้ตามความเหมาะสมของระบบนั้นๆ
+push สำหรับเพิ่ม
+splice สำหรับลบ
+find สำหรับอัปเดต
+findIndex เพื่อหาไอดีที่จะลบ
