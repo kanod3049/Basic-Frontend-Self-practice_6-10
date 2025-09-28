@@ -1,0 +1,2 @@
+ทวนการเข้าถึง element DOM และ ฝึกการเปลี่ยนแปลง content ลองการสร้าง element ใหม่ด้วย createElement และเพิ่มเข้าไปด้วย appendChild
+ฝึกการลบ element เข้าใจ traversing อย่าง parent, children, sibling

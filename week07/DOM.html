@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 07</title>
+</head>
+<body>
+    <h1 id="title"> Hello</h1>
+    <ul id="fruits">
+        <li class="item">Apple</li>
+        <li class="item">Orange</li>
+        <li class="item">Mango</li>
+        <li class="item">Banana</li>
+    </ul>
+    <button id="addBtn">Add fruits</button>
+    <button id="removeBtn">Remove fruits</button>
+</body>
+    <script>
+        const title = document.getElementById("title")
+        console.log(title)
+
+        title.textContent = "Welcome BRO"
+
+        const items = document.querySelectorAll(".item")
+        items.forEach(li => console.log(li.textContent))
+
+        const addBtn = document.getElementById("addBtn")
+        addBtn.onclick = () => {
+            const newFruit = document.createElement("li")
+            newFruit.textContent = "Pineapple"
+            document.getElementById("fruits").appendChild(newFruit)
+        }
+
+        const removeBtn = document.getElementById("removeBtn")
+        removeBtn.onclick = () => {
+            const list = document.getElementById("fruits")
+            if (list.firstChild) {
+                list.removeChild(list.firstChild)
+            }
+        }
+
+        const fruitsList = document.getElementById("fruits")
+        console.log("Parent :", fruitsList.parentNode.nodeName)
+        console.log("Children count :", fruitsList.children.length)
+    </script>
+</html>
