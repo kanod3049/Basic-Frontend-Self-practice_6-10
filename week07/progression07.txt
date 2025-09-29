@@ -1,2 +1,5 @@
 ทวนการเข้าถึง element DOM และ ฝึกการเปลี่ยนแปลง content ลองการสร้าง element ใหม่ด้วย createElement และเพิ่มเข้าไปด้วย appendChild
 ฝึกการลบ element เข้าใจ traversing อย่าง parent, children, sibling
+
+เรียนรู้การจัดการ DOM ทั้ง attribute, class, style
+ความต่างระหว่าง NodeList และ HTMLCollection และ ความต่างของ childNodes กับ children

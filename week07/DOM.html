@@ -43,5 +43,36 @@
         const fruitsList = document.getElementById("fruits")
         console.log("Parent :", fruitsList.parentNode.nodeName)
         console.log("Children count :", fruitsList.children.length)
+
+        const img = document.createElement("img")
+        img.setAttribute("src", "https://picsum.photos/100")
+        img.setAttribute("alt", "Random Image")
+        document.body.appendChild(img)
+        console.log(img.getAttribute("src"))
+
+        const titleAddClass = document.getElementById("title")
+        title.classList.add("highlight")
+        console.log(title.classList.contains("highlight"))
+        // title.classList.toggle("highlight")
+
+        title.style.color = "green"
+        title.style.fontSize = "50px"
+
+        const list = document.getElementById("fruits")
+        console.log(list.childNodes) // รวม text nodes
+        console.log(list.children) // เฉพาะ element
+
+        const live = document.getElementsByTagName("li") 
+        const staticList = document.querySelectorAll("li")
+
+        console.log("beforeAdd :", live.length, staticList.length)
+
+        const newItem = document.createElement("li")
+        newItem.textContent = "Papaya"
+        document.getElementById("fruits").appendChild(newItem)
+
+        console.log("afterAdd :", live.length, staticList.length)
+        // live.length เพิ่มขึ้นอัตโนมัติ
+        // staticList.length ไม่เปลี่ยน
     </script>
 </html>
