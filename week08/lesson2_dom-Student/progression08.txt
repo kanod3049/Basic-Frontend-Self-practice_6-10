@@ -1,0 +1,6 @@
+เรียนรู้การเชื่อมต่อระหว่าง logic quote.js กับหน้าเว็บ index.html ด้วย ui.js
+ฝึกใช้ DOM Methods  
+- getElementById() เลือกตำแหน่งแสดงผล
+- innerHTML = "" เคลียร์ข้อมูล
+- createElement() และ appendChild() เพื่อสร้างและแสดง elementใน html
+- textContent เพื่อแสดงข้อความ
