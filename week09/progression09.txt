@@ -1,0 +1,4 @@
+ฝึกการใข้ event listeners บนหน้าเว็บ
+ฝึกการสร้าง element
+การจัดการ function ต่างๆ ใน DOM และก็แยกส่วนต่างๆ ของการทำงาน
+กาาใช้ preventDefault() เพื่อ handle form

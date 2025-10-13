@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="inputKey">Type here:</label>
+    <input type="text" id="inputKey">
+
+    <div id="keyLog" style="color: black;"></div>
+
+    <script>
+        const input = document.getElementById("inputKey")
+        const log = document.getElementById("keyLog")
+
+        input.addEventListener("keydown", function (event) {
+            const p = document.createElement("p")
+            if (event.key === "Enter") {
+                p.style.color = "blue"
+                p.textContent = "You pressed: Enter"
+            } else {
+                p.style.color = "black"
+                p.textContent = `You pressed: ${event.key}`
+            }
+            log.appendChild(p)
+        })
+    </script>
+</body>
+</html>
