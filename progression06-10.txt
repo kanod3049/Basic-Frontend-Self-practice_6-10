@@ -1,0 +1,21 @@
+week06
+ผมได้ฝึกสร้าง Quote Manager โดยใช้ Array และ Object เรียนรู้การใช้ method เช่น push, findIndex, find, splice เพื่อจัดการข้อมูลใน array
+เข้าใจการเขียนฟังก์ชัน addQuote, deleteQuote และ updateQuote
+
+week07
+ได้เรียนรู้ element DOM และ ฝึกการเปลี่ยนแปลง content ลองการสร้าง element ใหม่ด้วย createElement และเพิ่มเข้าไปด้วย appendChild
+ฝึกการลบ element เข้าใจ traversing อย่าง parent, children, sibling และเรียนรู้การจัดการ DOM ทั้ง attribute, class, style
+ความต่างระหว่าง NodeList และ HTMLCollection และ ความต่างของ childNodes กับ children
+
+week08
+ผมฝึกใช้ document.getElementById(), createElement(), appendChild(), และ textContent
+เพื่อแสดง quotes บนหน้าเว็บด้วย renderQuotes()
+
+week09
+ได้เพิ่มการโต้ตอบ ใช้ event listeners เรียนรู้ addEventListener(), preventDefault(), event.target, และการอัปเดต DOM 
+ฝึกเชื่อม logic จาก quote.js กับ event 
+
+week10
+ได้ลองใช้ localStorage กับฟังก์ชัน saveQuotes() และ loadQuotes()
+ฝึกใช้ localStorage.setItem(), getItem(), JSON.stringify() และ JSON.parse()
+เข้าใจหลักการเก็บข้อมูลฝั่ง client และอัปเดตให้ sync กับ DOM ทุกครั้งที่แก้ไขข้อมูล

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Settings</title>
+    <script src="./main.js" defer></script>
+    <style>
+        /* CSS เล็กน้อยเพื่อจัดระเบียบฟอร์ม */
+        body {
+            transition: background-color 0.3s, color 0.3s, font-size 0.3s;
+            font-family: sans-serif;
+            padding: 1rem;
+        }
+        .settings-form {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 8px;
+            display: inline-block;
+            margin-bottom: 2rem;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            margin-right: 10px;
+        }
+        button {
+            margin-right: 10px;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>หน้าเว็บสำหรับการตั้งค่า</h1>
+    <p>คุณสามารถปรับเปลี่ยนสีพื้นหลัง, สีตัวอักษร, และขนาดตัวอักษรได้ที่นี่</p>
+
+    <div class="settings-form">
+        <h2>การตั้งค่าการแสดงผล</h2>
+        <div class="form-group">
+            <label for="bgColor">Background Color:</label>
+            <input type="color" id="bgColor" value="#ffffff">
+        </div>
+        <div class="form-group">
+            <label for="fontColor">Font Color:</label>
+            <input type="color" id="fontColor" value="#000000">
+        </div>
+        <div class="form-group">
+            <label for="fontSize">Font Size:</label>
+            <select id="fontSize">
+                <option value="small">Small</option>
+                <option value="medium" selected>Medium</option>
+                <option value="large">Large</option>
+            </select>
+        </div>
+        <button id="saveBtn">Save</button>
+        <button id="resetBtn">Reset</button>
+    </div>
+
+</body>
+</html>

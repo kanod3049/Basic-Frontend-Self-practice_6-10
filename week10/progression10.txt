@@ -1,0 +1,4 @@
+รู้จักการใช้ localStorage เพื่อเก็บข้อมูลฝั่ง client 
+saveQuotes บันทึกข้อมูล quotes ลง localStorage
+loadQuotes โหลดข้อมูลที่เคยบันทึกไว้
+ใช้ JSON.stringify และ JSON.parse เพื่อแปลงข้อมูลระหว่าง array กับ string
